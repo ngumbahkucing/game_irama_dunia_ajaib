@@ -1,0 +1,6 @@
+{
+  "name": "Irama Dunia Ajaib",
+  "description": "Game rhythm ceria untuk anak-anak dengan ketukan musik interaktif, cerita visual novel pendek, dan koleksi kartu karakter ajaib.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700;900&family=JetBrains+Mono:wght@400;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Theme color codes from Natural Tones */
+  --color-natural-bg: #FEF9EF;
+  --color-natural-text: #5F4339;
+  --color-natural-border: #E9C46A;
+  --color-natural-primary: #E76F51;
+  --color-natural-primary-dark: #C05A44;
+  --color-natural-orange: #F4A261;
+  --color-natural-teal: #2A9D8F;
+  --color-natural-darkteal: #264653;
+  --color-natural-card: #FDFCF0;
+  --color-natural-accent: #A2D2FF;
+  --color-natural-tap: #FF865E;
+  --color-natural-hold: #FEE440;
+}
+
+/* Global modifications mapping to Natural Tones theme */
+body {
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+}
+
+/* Scrollbar styling matching the warm organic theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-natural-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-natural-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-natural-orange);
+}
